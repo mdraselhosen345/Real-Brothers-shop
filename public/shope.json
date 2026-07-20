@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/5g7Qv0V/laptop.jpg",
+    "title": "Dell Inspiron Laptop",
+    "rating": 4.8,
+    "reviews": 128,
+    "price": 65000,
+    "details": "High performance Dell laptop with Intel Core i5, 8GB RAM and 512GB SSD."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/q5nM7N6/headphone.jpg",
+    "title": "Wireless Bluetooth Headphone",
+    "rating": 4.7,
+    "reviews": 215,
+    "price": 2500,
+    "details": "Premium wireless headphone with deep bass and 30 hours battery backup."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/tD6QvLX/smartwatch.jpg",
+    "title": "Smart Watch",
+    "rating": 4.6,
+    "reviews": 175,
+    "price": 3200,
+    "details": "Waterproof smartwatch with heart rate monitoring and fitness tracking."
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/GcL8Jr6/router.jpg",
+    "title": "WiFi Router",
+    "rating": 4.5,
+    "reviews": 89,
+    "price": 1800,
+    "details": "Dual-band high-speed WiFi router suitable for home and office."
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/3dQx7rT/printer.jpg",
+    "title": "HP Laser Printer",
+    "rating": 4.9,
+    "reviews": 96,
+    "price": 14500,
+    "details": "Fast monochrome laser printer with wireless printing support."
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/T4mQ7Fy/keyboard.jpg",
+    "title": "Mechanical Keyboard",
+    "rating": 4.7,
+    "reviews": 140,
+    "price": 3200,
+    "details": "RGB mechanical keyboard with blue switches and durable design."
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/2dSxw2z/mouse.jpg",
+    "title": "Gaming Mouse",
+    "rating": 4.8,
+    "reviews": 160,
+    "price": 1500,
+    "details": "Ergonomic RGB gaming mouse with adjustable DPI."
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/8c2wLQK/camera.jpg",
+    "title": "CCTV Security Camera",
+    "rating": 4.9,
+    "reviews": 110,
+    "price": 4200,
+    "details": "1080P HD CCTV camera with night vision and motion detection."
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/0tZLJdL/ssd.jpg",
+    "title": "SSD 512GB",
+    "rating": 4.8,
+    "reviews": 185,
+    "price": 4800,
+    "details": "High-speed 512GB SSD for laptops and desktops."
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/Drq5x0M/monitor.jpg",
+    "title": "24 Inch LED Monitor",
+    "rating": 4.7,
+    "reviews": 134,
+    "price": 13500,
+    "details": "Full HD IPS LED monitor with ultra-thin bezel."
+  },
+  {
+    "id": 11,
+    "image": "https://i.ibb.co/2PjH0C4/speaker.jpg",
+    "title": "Bluetooth Speaker",
+    "rating": 4.6,
+    "reviews": 220,
+    "price": 2800,
+    "details": "Portable Bluetooth speaker with powerful stereo sound."
+  },
+  {
+    "id": 12,
+    "image": "https://i.ibb.co/C1JzD0F/powerbank.jpg",
+    "title": "20000mAh Power Bank",
+    "rating": 4.8,
+    "reviews": 198,
+    "price": 2200,
+    "details": "Fast charging power bank with dual USB output."
+  }
+]
