@@ -1,7 +1,9 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 import Logo from '../../../components/Logo/Logo'
 import { IoSearchOutline } from "react-icons/io5";
+import AddToCard from "../../../assets/AddToCard.png"
+import Acount from "../../../assets/Acount.png"
 
 const NavBar = () => {
     return (
@@ -45,12 +47,19 @@ const NavBar = () => {
                      <IoSearchOutline size={22} />
                 </button>
              </div>
-
-                <div className="border border-gray-300 rounded-lg px-3 py-1.5 hover:bg-gray-50 cursor-pointer">    
+  
+             <div className='flex gap-1'>
+                <div className="border-gray-300 rounded-lg px-3 py-1.5 hover:bg-gray-50 cursor-pointer">    
                     <span className='text-base font-medium text-gray-700'>
-                        Account
+                        <img src={Acount} className='h-[40px] w-[40px]' alt="" />
                     </span>
                 </div>
+                <Link className="border-gray-300 rounded-lg px-3 py-1.5 hover:bg-gray-50 cursor-pointer">    
+                    <span className='text-base font-medium text-gray-700'>
+                        <img src={AddToCard} className='h-[40px] w-[40px]' alt="" />
+                    </span>
+                </Link>
+            </div>
             
 
         </div>

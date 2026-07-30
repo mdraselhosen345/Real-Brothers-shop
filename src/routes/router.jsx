@@ -1,10 +1,9 @@
 import { createBrowserRouter } from "react-router";
 import RootLayout from "../layouts/RootLayout";
-import { Component } from "react";
 import Home from "../pages/Home/Home/Home";
-import Banner from "../pages/Home/Banner/Banner";
 import Shope from "../pages/HeroNavber/Shope/Shope";
-
+import Dettels from "../pages/HeroNavber/Shope/Dettels";
+import Servecing from "../pages/HeroNavber/Servecing/Servecing";
 
 
 
@@ -21,6 +20,15 @@ export const router = createBrowserRouter([
             {
                 path: "shope",
                 Component: Shope
+            },
+            {
+                path: "/shope/:id",
+                Component: Dettels,
+            },
+            {
+                path: "Servecing",
+                Component: Servecing
+                
             }
             
         ]

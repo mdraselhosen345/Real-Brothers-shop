@@ -22,7 +22,7 @@ const Hero = () => {
 </div>
           <div className="group">
     <Link 
-        to="/" 
+        to="/Servecing" 
         className="block hover:bg-[#E35335] hover:text-white 
                    rounded-xl lg:px-5 lg:py-4 px-4 py-3 
                    text-black font-semibold
