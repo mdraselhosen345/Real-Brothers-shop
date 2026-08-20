@@ -2,10 +2,13 @@ import React from 'react';
 import { Link, NavLink } from 'react-router';
 import Logo from '../../../components/Logo/Logo'
 import { IoSearchOutline } from "react-icons/io5";
-import AddToCard from "../../../assets/AddToCard.png"
 import Acount from "../../../assets/Acount.png"
 
+
+
 const NavBar = () => {
+
+
     return (
        
         <div className="navbar  bg-[#000047] shadow-sm px-4 relative flex items-center justify-between">
@@ -54,11 +57,7 @@ const NavBar = () => {
                         <img src={Acount} className='h-[40px] w-[40px]' alt="" />
                     </span>
                 </div>
-                <Link className="border-gray-300 rounded-lg px-3 py-1.5 hover:bg-gray-50 cursor-pointer">    
-                    <span className='text-base font-medium text-gray-700'>
-                        <img src={AddToCard} className='h-[40px] w-[40px]' alt="" />
-                    </span>
-                </Link>
+
             </div>
             
 

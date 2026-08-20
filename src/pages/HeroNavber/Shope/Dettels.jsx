@@ -8,6 +8,7 @@ import Hero from '../../Shared/Hero/Hero';
 const Dettels = () => {
     const [product, setProduct] = useState(null);
 
+
     const { id } = useParams();
 
     useEffect(() => {
@@ -81,7 +82,7 @@ const Dettels = () => {
           </p>
 
 <div className="flex gap-4 mt-6 w-full">
-  <button onClick={() => AddToCard(product) }
+  <button
    className="btn flex-1 bg-blue-600 hover:bg-blue-700 text-white border-none rounded-lg">
     🛒 Add to Cart
   </button>
