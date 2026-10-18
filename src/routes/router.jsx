@@ -6,11 +6,13 @@ import Dettels from "../pages/HeroNavber/Shope/Dettels";
 import Servecing from "../pages/HeroNavber/Servecing/Servecing";
 import Homeservice from "../pages/HeroNavber/Homeservice/Homeservice";
 import LaptopPc from "../pages/HeroNavber/Homeservice/Homecard/LaptopPc";
+import Glass from "../pages/HeroNavber/HomeService/Homecard/Glass";
 import Cctv from "../pages/HeroNavber/Homeservice/Homecard/Cctv";
 import Electronic from "../pages/HeroNavber/Homeservice/Homecard/Cctv";
 import AboutUs from "../pages/HeroNavber/About Us/AboutUs";
 import Contact from "../pages/HeroNavber/Contact/Contact";
 import Complne from "../pages/HeroNavber/Complne/Complne";
+
 
 
 
@@ -72,6 +74,10 @@ export const router = createBrowserRouter([
             {
                 path: "Electronic",
                 Component: Electronic
+            },
+            {
+                path: "Glass",
+                Component: Glass
             }
         ]
     }

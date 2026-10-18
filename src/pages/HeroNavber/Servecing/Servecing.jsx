@@ -7,18 +7,18 @@ import CCTVBac from '../../../assets/ServiceBackground/CCTVBAC.png'
 import Electronic from '../../../assets/ServiceBackground/ElectronicService.png'
 
 
-import Mobail from "../../../assets/Servecing/mobile.png"
-import PC from "../../../assets/Servecing/pc.png"
-import TV from "../../../assets/Servecing/tv.png"
-import AirFan from "../../../assets/Servecing/air-fan.png"
-import RiceCooker from "../../../assets/Servecing/rice-cooker.png"
-import DeskLamp from "../../../assets/Servecing/desk-lamp.png"
-import Speaker from "../../../assets/Servecing/speaker.png"
-import Teapot from "../../../assets/Servecing/teapot.png"
-import Fan from "../../../assets/Servecing/fan.png"
-import Light from "../../../assets/Servecing/light.png"
-import WeightScale from "../../../assets/Servecing/weight-scale.png"
-import Laptop from "../../../assets/Servecing/laptop.png"
+// import Mobail from "../../../assets/Servecing/mobile.png"
+// import PC from "../../../assets/Servecing/pc.png"
+// import TV from "../../../assets/Servecing/tv.png"
+// import AirFan from "../../../assets/Servecing/air-fan.png"
+// import RiceCooker from "../../../assets/Servecing/rice-cooker.png"
+// import DeskLamp from "../../../assets/Servecing/desk-lamp.png"
+// import Speaker from "../../../assets/Servecing/speaker.png"
+// import Teapot from "../../../assets/Servecing/teapot.png"
+// import Fan from "../../../assets/Servecing/fan.png"
+// import Light from "../../../assets/Servecing/light.png"
+// import WeightScale from "../../../assets/Servecing/weight-scale.png"
+// import Laptop from "../../../assets/Servecing/laptop.png"
 
 
 
@@ -47,7 +47,7 @@ const Servecing = () => {
 
 </Carousel>
    {/* All Service */}
-    <div className="max-w-7xl mx-auto">
+    {/* <div className="max-w-7xl mx-auto">
                  <div className=''>
             <div className='grid lg:grid-cols-10 lg:grid-cols-8 grid-cols-6 justify-between lg:py-6 lg-px-8 lg:py-4 lg-px-6 py-2 px-3 gap-2'>
                 <div className='bg-[#C4C4C4]  shadow-2xl rounded-lg h-[90px]'>
@@ -128,7 +128,7 @@ const Servecing = () => {
             </div>
         </div>
     </div>
-
+ */}
 
 
 <div className="flex flex-col lg:flex-row md:flex-row max-w-6xl mx-auto">
