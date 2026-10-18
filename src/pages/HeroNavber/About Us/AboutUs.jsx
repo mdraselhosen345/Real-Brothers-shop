@@ -48,7 +48,6 @@ const AboutUs = () => {
                     <div className="">
                          <h1 className="font-bold md:text-xl text-lg" >Home Service</h1>
                          <ul className="md:text-base text-[10px] px-1">
-                            <li>অভিজ্ঞ ও দক্ষ টেকনিশিয়ান</li>
                             <li>Home Service সুবিধা</li>
                             <li>নিজস্ব Servicing Center</li>
                             <li>প্রয়োজনীয় Parts ও Products একই জায়গায়</li>
