@@ -12,6 +12,7 @@ import Electronic from "../pages/HeroNavber/Homeservice/Homecard/Cctv";
 import AboutUs from "../pages/HeroNavber/About Us/AboutUs";
 import Contact from "../pages/HeroNavber/Contact/Contact";
 import Complne from "../pages/HeroNavber/Complne/Complne";
+// import Homeservice from "../pages/HeroNavber/Homeservice/Homeservice";
 
 
 
@@ -80,5 +81,5 @@ export const router = createBrowserRouter([
                 Component: Glass
             }
         ]
-    }
+    },
 ])

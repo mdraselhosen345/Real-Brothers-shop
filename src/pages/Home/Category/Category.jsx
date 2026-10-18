@@ -5,6 +5,7 @@ import { Link } from 'react-router';
 import HomeService from "../../../assets/HomeServiceImg/HomeService.png";
 import ServecingCenter from "../../../assets/HomeServiceImg/ServecingCenter.png";
 
+
 const Categroy = () => {
     // ক্যাটাগরি ডেটা লিস্ট
     const categories = Array(6).fill({
@@ -44,10 +45,10 @@ const Categroy = () => {
             <div className='w-full lg:w-1/2 flex flex-col gap-6'>
                 
                 {/* হোম সার্ভিস */}
-                                <div>
+                 <div>
                     {/* <h1 className='text-xl sm:text-2xl font-bold py-2 sm:py-4'>হোম সার্ভিস</h1>                  */}
                        
-                            <Link to="/" className='shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl bg-[#DBDBDB] flex flex-col justify-between'>
+                            <Link to="Homeservice" className='shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl bg-[#DBDBDB] flex flex-col justify-between'>
                                 <div className="w-full overflow-hidden rounded-t-2xl">
   <img
     src={HomeService}
@@ -77,7 +78,7 @@ const Categroy = () => {
                     {/* <h1 className='text-xl sm:text-2xl font-bold py-2 sm:py-4'>সার্ভিসিং সেন্টার </h1> */}
                     
                        
-                            <Link to="/" className='shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl bg-[#DBDBDB] flex flex-col justify-between'>
+                            <Link to="/Servecing" className='shadow-lg hover:shadow-2xl transition-all duration-300 rounded-xl bg-[#DBDBDB] flex flex-col justify-between'>
                             <div className="w-full overflow-hidden rounded-t-2xl">
                                 <img src={ServecingCenter} className="w-full h-48 sm:h-56 md:h-60 lg:h-[240px] object-cover" alt="Servecing center" />
                             </div>

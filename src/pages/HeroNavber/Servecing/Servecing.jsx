@@ -7,22 +7,6 @@ import CCTVBac from '../../../assets/ServiceBackground/CCTVBAC.png'
 import Electronic from '../../../assets/ServiceBackground/ElectronicService.png'
 
 
-// import Mobail from "../../../assets/Servecing/mobile.png"
-// import PC from "../../../assets/Servecing/pc.png"
-// import TV from "../../../assets/Servecing/tv.png"
-// import AirFan from "../../../assets/Servecing/air-fan.png"
-// import RiceCooker from "../../../assets/Servecing/rice-cooker.png"
-// import DeskLamp from "../../../assets/Servecing/desk-lamp.png"
-// import Speaker from "../../../assets/Servecing/speaker.png"
-// import Teapot from "../../../assets/Servecing/teapot.png"
-// import Fan from "../../../assets/Servecing/fan.png"
-// import Light from "../../../assets/Servecing/light.png"
-// import WeightScale from "../../../assets/Servecing/weight-scale.png"
-// import Laptop from "../../../assets/Servecing/laptop.png"
-
-
-
-
 const Servecing = () => {
     return (
         <>

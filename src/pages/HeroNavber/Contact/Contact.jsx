@@ -15,7 +15,7 @@ const Contact = () => {
                         <h2 className="text-xl font-bold">Contact Number : 01782299570</h2>
                       </div>
                       <div className="rounded-md bg-[#C4C4C4] w-96 shadow-md px-5 py-3 mt-3">
-                        <h2 className="text-xl font-bold">facebook page : 01782299570</h2>
+                        <h2 className="text-xl font-bold">facebook page : https://www.facebook.com/profile.php?id=61595514920705</h2>
                       </div>
                       <div className="rounded-md bg-[#C4C4C4] w-96 shadow-md px-5 py-3 mt-3">
                         <h2 className="text-xl font-bold">tik tok Acount: 01782299570</h2>
