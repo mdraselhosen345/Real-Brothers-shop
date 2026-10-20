@@ -8,7 +8,7 @@ import Homeservice from "../pages/HeroNavber/Homeservice/Homeservice";
 import LaptopPc from "../pages/HeroNavber/Homeservice/Homecard/LaptopPc";
 import Glass from "../pages/HeroNavber/HomeService/Homecard/Glass";
 import Cctv from "../pages/HeroNavber/Homeservice/Homecard/Cctv";
-import Electronic from "../pages/HeroNavber/Homeservice/Homecard/Cctv";
+import Electronic from "../pages/HeroNavber/Homeservice/Homecard/Electronic";
 import AboutUs from "../pages/HeroNavber/About Us/AboutUs";
 import Contact from "../pages/HeroNavber/Contact/Contact";
 import Complne from "../pages/HeroNavber/Complne/Complne";

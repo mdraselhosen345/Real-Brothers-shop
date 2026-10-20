@@ -3,7 +3,7 @@ import React from 'react';
 
 const Glass = () => {
     return (
-<div className="flex flex-col lg:flex-row md:flex-row max-w-6xl mx-auto">
+<div className="flex flex-col lg:flex-row md:flex-row max-w-6xl mx-auto pt-10">
 
   {/* input Filde */}
    <div className="w-full pt-8 px-5 py-5"> 
@@ -82,23 +82,23 @@ const Glass = () => {
            <div className="px-5 py-3">
                <div>
                   <h3 className='lg:text-lg text-base  font-bold text-[#525252]'>আপনার সমস্যার বিবরণ দিন</h3>
-                  <h1 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">আপনি যে সমস্যার সম্মুখীন হচ্ছেন, তার বিস্তারিত তথ্য অনলাইনে অথবা আমাদের সার্ভিস সেন্টারে সশরীরে জানান।</h1>
+                  <h1 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">আপনার বাসা, অফিস বা প্রতিষ্ঠানের গ্লাস স্থাপন, মেরামত অথবা পরিবর্তনের প্রয়োজনীয়তা সম্পর্কে বিস্তারিত তথ্য অনলাইনে অথবা আমাদের সঙ্গে যোগাযোগের মাধ্যমে জানান।</h1>
                </div>
                <div>
                   <h3 className='lg:text-lg text-base  font-bold text-[#525252]'>দর জেনে নিন</h3>
-                  <h1 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">আমরা আপনাকে ফোন বা সরাসরি সাক্ষাতের মাধ্যমে বিস্তারিত পরিষেবা পরিকল্পনা এবং খরচের একটি প্রাক্কলন প্রদান করব।</h1>
+                  <h1 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">আমরা আপনাকে ফোন বা সরাসরি সাক্ষাতের মাধ্যমে গ্লাস ইনস্টলেশন, মেরামত এবং প্রয়োজনীয় উপকরণের খরচসহ বিস্তারিত পরিষেবা পরিকল্পনা ও একটি প্রাক্কলন প্রদান করব।</h1>
                </div>
                <div>
                 <h3 className='lg:text-lg text-base  font-bold text-[#525252]'>পরিষেবা পরিকল্পনা অনুমোদন করুন</h3>
-                <h1 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">প্রস্তাবিত পরিষেবা পরিকল্পনা ও খরচের প্রাক্কলন পর্যালোচনা ও অনুমোদন করুন।</h1>
+                <h1 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">প্রস্তাবিত গ্লাস ইনস্টলেশন বা মেরামতের পরিকল্পনা এবং খরচের প্রাক্কলন পর্যালোচনা ও অনুমোদন করুন।</h1>
                </div>
                <div>
-                <h3 className='lg:text-lg text-base  font-bold text-[#525252]'>আপনার ডিভাইসটি পাঠান বা নিয়ে আসুন</h3>
-                <h3 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">আপনার ডিভাইসটি নিরাপদে আমাদের কাছে পাঠান অথবা সরাসরি আমাদের সার্ভিস সেন্টারে নিয়ে আসুন।</h3>
+                <h3 className='lg:text-lg text-base  font-bold text-[#525252]'>আপনার গ্লাস হোম সার্ভিস গ্রহণ করুন</h3>
+                <h3 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">আমাদের হোম সার্ভিসের মাধ্যমে বাসা, অফিস বা প্রতিষ্ঠানে নতুন গ্লাস স্থাপন, পুরোনো গ্লাস পরিবর্তন এবং প্রয়োজনীয় গ্লাস মেরামতের সেবা গ্রহণ করুন।</h3>
                </div>
                <div>
-                <h3 className='lg:text-lg text-base  font-bold text-[#525252]'>আপনার ডিভাইসটি ফেরত নিন</h3>
-                <h1 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">মেরামত সম্পন্ন হলে আমরা দ্রুত আপনার ডিভাইসটি আপনার কাছে ফেরত পাঠাব, অথবা আপনি আমাদের সার্ভিস সেন্টার থেকে এটি সংগ্রহ করতে পারবেন।</h1>
+                <h3 className='lg:text-lg text-base  font-bold text-[#525252]'>আপনার গ্লাস সার্ভিস সম্পন্ন করুন</h3>
+                <h1 className="lg:text-md text-[14px] text-[#808080] px-4 py-1">কাজ সম্পন্ন হলে গ্লাসের স্থাপন, ফিটিং ও নিরাপত্তা পরীক্ষা করে বুঝে নিন। আমরা আপনার প্রয়োজন অনুযায়ী গ্লাস ইনস্টলেশন ও মেরামতের কাজ সম্পন্ন করব।</h1>
                </div>
            </div>
    </div>
