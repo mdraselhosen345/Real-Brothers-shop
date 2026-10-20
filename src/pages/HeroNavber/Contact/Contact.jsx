@@ -2,20 +2,34 @@ import React from 'react';
 import Complne from "../../../assets/complne.png";
 import  online  from "../../../assets/online-Service.png";
 import { Link } from 'react-router';
+import { FaPhoneSquareAlt } from "react-icons/fa";
+import { FaWhatsappSquare } from "react-icons/fa";
+import { ImFacebook2 } from "react-icons/im";
 
 const Contact = () => {
     return (
          <div className="max-w-5xl mx-auto py-10">
              <div className="flex flex-col lg:flex-row px-5 gap-5">
                    <div className="w-[400px]">
+
                       <div className="rounded-md bg-[#C4C4C4] w-96 shadow-md px-5 py-3">
-                        <h2 className="text-xl font-bold">Contact Number : 01782299570</h2>
+                        <h3 className='pl-10 text-base'>Contact Number:</h3>
+                        <h2 className="text-xl font-bold flex gap-3"><FaPhoneSquareAlt size={30} className=''/>01782299570</h2>
                       </div>
+                      
                       <div className="rounded-md bg-[#C4C4C4] w-96 shadow-md px-5 py-3 mt-3">
-                        <h2 className="text-xl font-bold">Contact Number : 01782299570</h2>
+                        <h3 className='pl-10 text-base'>Whatsapp Number:</h3>
+                        <h2 className="text-xl font-bold flex gap-3"><FaWhatsappSquare size={30} className=''/>01782299570</h2>
                       </div>
-                      <div className="rounded-md bg-[#C4C4C4] w-96 shadow-md px-5 py-3 mt-3">
-                        <h2 className="text-xl font-bold">facebook page : https://www.facebook.com/profile.php?id=61595514920705</h2>
+                      
+                      <div className="rounded-md bg-[#C4C4C4] w-96 shadow-md px-5 py-3 mt-3 flex">
+                       <a className='flex gap-5 text-blue-600'
+  href="https://www.facebook.com/profile.php?id=61595514920705"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+   <ImFacebook2 size={30}/> Facebook Page
+</a>
                       </div>
                       <div className="rounded-md bg-[#C4C4C4] w-96 shadow-md px-5 py-3 mt-3">
                         <h2 className="text-xl font-bold">tik tok Acount: 01782299570</h2>
