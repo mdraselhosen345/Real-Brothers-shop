@@ -13,6 +13,13 @@ import AboutUs from "../pages/HeroNavber/About Us/AboutUs";
 import Contact from "../pages/HeroNavber/Contact/Contact";
 import Complne from "../pages/HeroNavber/Complne/Complne";
 import Account from "../pages/Acount/Account";
+import Dashboard from "../pages/Admin/Dashboard/Dashboard";
+import AddProduct from "../pages/Admin/AddProduct/AddProduct";
+import AllProduct from "../pages/Admin/AllProduct/AllProduct";
+import Orders from "../pages/Admin/Orders/Orders";
+import Services from "../pages/Admin/Services/Services";
+import Customers from "../pages/Admin/Customers/Customers";
+import Payments from "../pages/Admin/Payments/Payments";
 // import Homeservice from "../pages/HeroNavber/Homeservice/Homeservice";
 
 
@@ -56,6 +63,40 @@ export const router = createBrowserRouter([
             {
                 path: "Account",
                 Component: Account
+            },
+
+ 
+
+
+
+
+            {
+                path: "Dashboard",
+                Component: Dashboard,
+            },
+            {
+                path: "AddProduct",
+                Component: AddProduct,
+            },
+            {
+                path: "AllProduct",
+                Component: AllProduct,
+            },
+            {
+                Path: "Orders",
+                Component: Orders
+            },
+            {
+                path: "Services",
+                Component: Services
+            },
+            {
+                path: "Customers",
+                Component: Customers
+            },
+            {
+                path: "Payments",
+                Component: Payments
             }
         
             
