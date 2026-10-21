@@ -12,6 +12,7 @@ import Electronic from "../pages/HeroNavber/Homeservice/Homecard/Electronic";
 import AboutUs from "../pages/HeroNavber/About Us/AboutUs";
 import Contact from "../pages/HeroNavber/Contact/Contact";
 import Complne from "../pages/HeroNavber/Complne/Complne";
+import Account from "../pages/Acount/Account";
 // import Homeservice from "../pages/HeroNavber/Homeservice/Homeservice";
 
 
@@ -52,6 +53,10 @@ export const router = createBrowserRouter([
                  path: "Contact",
                  Component: Contact
             },
+            {
+                path: "Account",
+                Component: Account
+            }
         
             
         ]

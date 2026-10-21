@@ -5,7 +5,7 @@ import logo from '../../assets/logo.png'
 const Logo = () => {
     return (
         <Link to="/">
-            <div className='flex items-end h-[80px] w-[80px]'>
+            <div className='flex h-[70px] w-[100px] rounded-xl overflow-hidden'>
                 <img src={logo} alt="" />
                 
             </div>
