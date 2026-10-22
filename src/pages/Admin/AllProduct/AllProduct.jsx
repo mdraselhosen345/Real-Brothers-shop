@@ -76,7 +76,7 @@ const AllProduct = () => {
           </div>
 
           <Link
-            to="/AddProduct"
+            to="/admin/AddProduct"
             className="rounded-lg bg-blue-600 px-5 py-3 font-semibold text-white hover:bg-blue-700"
           >
             + Add Product

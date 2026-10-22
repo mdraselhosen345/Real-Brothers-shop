@@ -1,6 +1,10 @@
 
-import React from "react";
+import React, { Component } from "react";
 import { Link } from "react-router";
+
+
+
+
 
 const Dashboard = () => {
   const stats = [
@@ -36,14 +40,14 @@ const Dashboard = () => {
       path: "/admin/dashboard",
       icon: "📊",
     },
-    {
-      name: "All Products",
-      path: "/admin/products",
-      icon: "📦",
-    },
+{
+  name: "All Products",
+  path: "/admin/AllProduct",
+  icon: "📦",
+},
     {
       name: "Add Product",
-      path: "/admin/add-product",
+      path: "/admin/AddProduct",
       icon: "➕",
     },
     {
@@ -52,8 +56,8 @@ const Dashboard = () => {
       icon: "🛒",
     },
     {
-      name: "Home Services",
-      path: "/admin/home-services",
+      name: "Services",
+      path: "/admin/services",
       icon: "🔧",
     },
     {
@@ -75,7 +79,7 @@ const Dashboard = () => {
       <aside className="w-full bg-gray-900 text-white md:min-h-screen md:w-64 md:shrink-0">
         <div className="border-b border-gray-700 p-6">
           <h1 className="text-2xl font-bold text-blue-400">
-            Real Brothers
+            Smart Home Service BD
           </h1>
 
           <p className="mt-1 text-sm text-gray-400">
@@ -113,7 +117,7 @@ const Dashboard = () => {
           </div>
 
           <Link
-            to="/admin/add-product"
+            to="/admin/AddProduct"
             className="rounded-lg bg-blue-600 px-5 py-3 font-semibold text-white transition hover:bg-blue-700"
           >
             + Add Product

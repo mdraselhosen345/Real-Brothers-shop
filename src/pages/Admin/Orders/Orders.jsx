@@ -142,7 +142,7 @@ const Orders = () => {
           </div>
 
           <Link
-            to="/Dashboard"
+            to="/admin/Dashboard"
             className="rounded-lg bg-gray-800 px-4 py-3 text-white hover:bg-gray-700"
           >
             Back to Dashboard

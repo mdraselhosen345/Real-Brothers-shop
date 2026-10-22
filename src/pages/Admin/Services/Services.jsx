@@ -126,7 +126,7 @@ const Services = () => {
           </div>
 
           <Link
-            to="/Dashboard"
+            to="/admin/dashboard"
             className="rounded-lg bg-gray-800 px-5 py-3 font-semibold text-white hover:bg-gray-700"
           >
             Back to Dashboard

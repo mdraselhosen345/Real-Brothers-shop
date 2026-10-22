@@ -20,6 +20,7 @@ import Orders from "../pages/Admin/Orders/Orders";
 import Services from "../pages/Admin/Services/Services";
 import Customers from "../pages/Admin/Customers/Customers";
 import Payments from "../pages/Admin/Payments/Payments";
+import PrivateRoute from "../PrivateRoute/PrivateRoute";
 // import Homeservice from "../pages/HeroNavber/Homeservice/Homeservice";
 
 
@@ -64,41 +65,6 @@ export const router = createBrowserRouter([
                 path: "Account",
                 Component: Account
             },
-
- 
-
-
-
-
-            {
-                path: "Dashboard",
-                Component: Dashboard,
-            },
-            {
-                path: "AddProduct",
-                Component: AddProduct,
-            },
-            {
-                path: "AllProduct",
-                Component: AllProduct,
-            },
-            {
-                Path: "Orders",
-                Component: Orders
-            },
-            {
-                path: "Services",
-                Component: Services
-            },
-            {
-                path: "Customers",
-                Component: Customers
-            },
-            {
-                path: "Payments",
-                Component: Payments
-            }
-        
             
         ]
     },
@@ -128,4 +94,63 @@ export const router = createBrowserRouter([
             }
         ]
     },
+
+    
+{
+  path: "/admin/Dashboard",
+  element: (
+    <PrivateRoute>
+      <Dashboard />
+    </PrivateRoute>
+  ),
+},
+{
+  path: "/admin/AllProduct",
+  element: (
+    <PrivateRoute>
+      <AllProduct />
+    </PrivateRoute>
+  ),
+},
+{
+  path: "/admin/AddProduct",
+  element: (
+    <PrivateRoute>
+      <AddProduct />
+    </PrivateRoute>
+  ),
+},
+{
+  path: "/admin/Orders",
+  element: (
+    <PrivateRoute>
+      <Orders />
+    </PrivateRoute>
+  ),
+},
+{
+  path: "/admin/Services",
+  element: (
+    <PrivateRoute>
+      <Services />
+    </PrivateRoute>
+  ),
+},
+{
+  path: "/admin/Customers",
+  element: (
+    <PrivateRoute>
+      <Customers />
+    </PrivateRoute>
+  ),
+},
+{
+  path: "/admin/Payments",
+  element: (
+    <PrivateRoute>
+      <Payments />
+    </PrivateRoute>
+  ),
+},
+
 ])
